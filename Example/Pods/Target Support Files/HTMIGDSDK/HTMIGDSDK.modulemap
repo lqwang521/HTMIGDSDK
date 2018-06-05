@@ -1,0 +1,6 @@
+framework module HTMIGDSDK {
+  umbrella header "HTMIGDSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

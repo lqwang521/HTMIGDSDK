@@ -1,0 +1,14 @@
+source 'https://github.com/lqwang521/HTMIGDSDK.git'
+source 'https://git.coding.net/MyCoding521/HTMISpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'HTMIGDSDK_Example' do
+  pod 'HTMIGDSDK', :path => '../'
+
+  target 'HTMIGDSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

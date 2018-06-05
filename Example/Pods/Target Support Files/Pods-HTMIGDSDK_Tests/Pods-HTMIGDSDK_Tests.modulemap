@@ -1,0 +1,6 @@
+framework module Pods_HTMIGDSDK_Tests {
+  umbrella header "Pods-HTMIGDSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
